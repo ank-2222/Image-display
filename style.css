@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+#img-dsp {
+  color: white;
+  margin: 50px 0px 0px 70px;
+  font-family: "PT Sans Caption", sans-serif;
+}
+#container {
+  border: 2px solid white;
+  margin: 30px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.card {
+  margin: 30px 30px;
+  display: inline-block;
+  align-items: flex-start;
+  box-shadow: 0px 5px 4px 0px rgb(209, 10, 53);
+  box-sizing: content-box;
+  border: 2px solid rgb(209, 10, 53);
+}
+.card:hover {
+  transform: translatey(12px);
+}
+
+#contact-foot {
+  margin: 0px;
+  padding: 0px 200px 0px 0px;
+  display: inline-block;
+  color: aliceblue;
+}
+footer {
+  display: inline-block;
+  justify-content: space-between;
+  width: 95%;
+}
+#foot {
+  border: 2px dashed white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 40px;
+  box-sizing: border-box;
+}
+
+.img {
+  margin: 30px;
+  padding: 0px 20px;
+}
